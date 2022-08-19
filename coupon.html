@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header>
+        <section class="mt-10">
+            <h1 class="text-3xl text-center text-orange-400">Get 30% Discount for <span
+                    class="text-rose-600 font-bold">Winter
+                    Offer!</span></h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="w-9/12 mx-auto mt-5 bg-sky-200 rounded-md p-12">
+                <h1 id="price-element" class="text-2xl mb-4 text-center">Regular
+                    Price : $<span id="price">500</span></h1>
+                <h1 id="discountPrice" class="text-2xl mb-4 text-center text-rose-400">After Discount Price : $<span
+                        id="discount">500</span>
+                </h1>
+                <div class="text-center">
+                    <label class="text-2xl">Enter Coupon Name:</label>
+                    <input id="couponField" type="text" class="w-1/3 px-4 py-1" placeholder="Enter coupon name!">
+                    <button id="coupon-btn"
+                        class="mt-3 px-8 py-1 text-white bg-rose-700 rounded-md font-semi-bold">Apply
+                        Coupon</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/discount.js"></script>
+</body>
+
+</html>
